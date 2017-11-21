@@ -1,4 +1,4 @@
-export const baseURL = 'https://nameless-beyond-77500.herokuapp.com/'
+export const baseURL = 'https://nameless-beyond-77500.herokuapp.com'
 
 export function arrayToObjectByID(data) {
   let massaged = {}
@@ -15,7 +15,7 @@ export function setOptions(state, method, data) {
   return {
     headers: {
       'Authorization': `Bearer ${token}`,
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
     },
     method: method,
     body: JSON.stringify(data)
