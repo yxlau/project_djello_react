@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/yxlau/project_djello_react/issues"
   },
-  "homepage": "https://github.com/yxlau/project_djello_react#readme",
+  "homepage": "https://github.io/yxlau/project_djello_react",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
     "form-serialize": "^0.7.2",
