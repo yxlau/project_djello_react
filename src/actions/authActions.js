@@ -38,7 +38,6 @@ export function login(data) {
       }
       return response.json()
     }).then(json => {
-      console.log('token', json.jwt)
       dispatch(loginSuccess(json.jwt))
       return json.jwt
     }).catch(error => {

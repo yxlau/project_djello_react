@@ -1,6 +1,5 @@
 import * as Actions from './actionTypes'
-
-const baseURL = 'http://localhost:3000'
+import { baseURL } from '../helpers/actionHelpers'
 
 export function getUserRequest() {
   return {
