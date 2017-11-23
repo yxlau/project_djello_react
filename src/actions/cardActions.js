@@ -132,8 +132,7 @@ export function updateCard(data, card_id) {
         }
         return response.json()
       }).then(json => {
-        const massaged = arrayToObjectByID([json])
-        dispatch(updateCardSuccess(massaged))
+        dispatch(updateCardSuccess(json))
       }).catch(error => {
         dispatch(updateCardFailure(error))
       })
