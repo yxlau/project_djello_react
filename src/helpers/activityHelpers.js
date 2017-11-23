@@ -1,9 +1,3 @@
-// updated card
-//  object: list, title, description, card, membership
-// verb: update, create, destroy
-// value: ...
-// user: name
-
 export function activitySentence(name, verb, object, value) {
 
 
