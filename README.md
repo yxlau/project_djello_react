@@ -2,6 +2,8 @@
 ![](https://user-images.githubusercontent.com/22121223/33110355-3769d06c-cf82-11e7-827f-249ee6fb7258.png)
 
 ## Live Demo of Djello
+⚠️ Note: Backend is on the render.com's free tier, so it might take a minute for the initial login.
+
 Live demo of Djello, a simple, clean, [Trello](http://trello.com) clone.
 
 Give Djello a whirl at [http://yxlau.github.io/project_djello_react](http://yxlau.github.io/project_djello_react). 
